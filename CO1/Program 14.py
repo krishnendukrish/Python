@@ -1,3 +1,6 @@
 n=int(input("enter a number"))
-sum = n + (n * n) + (n * n * n)
+s=str(n)
+nn=s+s
+nnn=s+s+s
+sum=int(n)+int(nn)+int(nnn)
 print(sum)

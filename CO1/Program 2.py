@@ -1,6 +1,6 @@
-current_year=2021
+curyear=2021
 year=int(input("enter a year"))
-while current_year<year:
-	if (current_year%400==0)or(current_year%100!=0)and(current_year%4==0):
-		print(current_year,",")
-	current_year=current_year+1
+while curyear<year:
+	if (curyear%400==0)or(curyear%100!=0)and(curyear%4==0):
+		print(curyear,",")
+	curyear=curyear+1

@@ -1,3 +1,7 @@
 a=(input("enter a word"))
-m=[ord(x) for x in a]
+k=list(a)
+m=[]
+for i in k:
+    b=ord(i)
+    m.append(b)
 print(m)

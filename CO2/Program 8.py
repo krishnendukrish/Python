@@ -1,15 +1,10 @@
-a=int(input("enter number of words"))
-k=[]
-b=[]
-i=1
-while i<=a:
-    n=input("enter the string")
-    l=len(n)
-    b.append(l)
-    k.append(n)
-    i=i+1
-print(k)
-print(max(b))
+a=(input("enter some words seperated with comma"))
+b=a.split(",")
+long=len(b[1])
+for i in b:
+    if long<len(i):
+       long=len(i)
+print("length of longest word is", long)
 
 
 

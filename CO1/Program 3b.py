@@ -1,6 +1,6 @@
 num=[]
-n=int(input("enter number of elements you want to insert"))
+n=int(input("enter a number"))
 for i in range(n):
-	num.append(int(input("enter element to insert")))
+	num.append(int(input("enter number to insert")))
 result=[x*x for x in num]
 print(result)

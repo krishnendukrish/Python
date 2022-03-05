@@ -6,5 +6,4 @@ s=0
 for x in names:
     b=x.count("a")
     s=s+b
-print(names)
 print(s)
